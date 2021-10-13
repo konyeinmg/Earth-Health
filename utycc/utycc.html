@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> UTYCC Competition </title>
+<meta charset = "utf-8">
+<style>
+body { background-color: #FFFFCC;}
+form { margin-left: 450px;
+	   margin-top:0px;}
+h1 { text-align: center;}
+img { margin-left: 500px;}
+</style>
+</head>
+<body>
+<h1> University Of Technology (Yatanarpon Cyber City) </h1>
+<img src="utycc1.jpeg" alt="utycc" title="utycc" width="200" height="200">
+<form onsubmit="return store_info();">
+<table>
+<tr>
+<td><label for= "yourname"> Name </label></td>
+<td><input type="text" id="yourname" size="25" required="required"> </td>
+<br><br>
+</tr>
+<tr>
+<td><label for= "pwd">Password</label></td>
+<td><input type="password" id="pwd" size="25"></td>
+<br><br>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Log in"></td>
+</tr>
+</table>
+</form>
+<script type="text/javascript">
+<!--
+		function store_info() {
+		var yn = document.getElementById("yourname").value;
+		top.frame1.thename=yn;
+		var password=document.getElementById("pwd").value;
+		if(password != "utycc2017"){
+			alert("Your Password is wrong!");
+			return false;
+		}else {
+		 top.frame2.location="utycctest.html";
+		 return false;
+		}
+		}
+// -->
+</script>
+</body>
+</html>

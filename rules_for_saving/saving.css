@@ -1,0 +1,16 @@
+  a{text-decoration:none;
+  display: inline; font-weight: bold; 
+  
+  }
+ 
+ 
+ h4{ font-weight: bold;
+	color: green;
+	font-size: 1.8em;}
+h1{ font-family:Comic Sans MS;text-shadow: 3px 2px 3px black;text-align: center;color: #339933;font-weight:bold;}
+	#yls{ margin-left:100px;border-radius:10px;box-shadow:5px 5px 5px #6666ff;;}
+#footer button:hover{ border-radius: 15px;background: linear-gradient(#006600,#66ff66);font-size:1.0em;}
+#footer{ text-align:center; font-family: Castellar; font-weight:bold;}
+body{ background-image: url(adwaita-318.jpg);font-size:1.1em; font-family:Shonar Bangla;
+	}
+	

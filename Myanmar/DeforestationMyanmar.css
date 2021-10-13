@@ -1,0 +1,21 @@
+p{font-weight:bold;
+  text-indent:3em;
+  overflow:auto;}
+li{font-weight:bold;}
+h1{text-align:center;
+   color: green;
+   text-shadow:5px 5px 5px #828282;}
+img{padding:10px;}
+.float{float:left;}
+div{overflow:auto;
+   background-color:#F3F1BF;}
+table{width:500px;
+     margin:auto;}
+thead{background-color:#F3F1BF;}
+tbody td{border-bottom:2px #000033 dashed;
+        padding-left:50px;
+		font-weight:bold;}
+caption{color:green;
+       font-size:30px;
+	   text-shadow:5px 5px 5px #828282;
+	   text-decoration:underline;}		

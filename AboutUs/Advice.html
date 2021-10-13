@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Advice </title>
+<meta charset = "utf-8">
+<style>
+h1 {text-align: center;
+	font-family: Lucida Calligraphy;
+	color: #000066;}
+textarea {margin-left: 400px;}
+body{ background-image: url(advice.jpg);
+	  background-repeat: no-repeat;
+	  margin-top: 50px;}
+input {margin-left: 600px;
+	   width: 100px;
+	   color: #660033;
+	   font-size: 1em;
+	   border-radius: 3px 3px 0px 0px;}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+function change(){
+	var text;
+	text=document.getElementById('advice').value;
+	if(text==""){
+	alert("You didn't write anything");
+	}else{
+	top.frame1.location="thanktitle.html";
+	self.location="thankPage.html";
+    }
+}
+</script>
+<h1> Write down please, the advice you want to give us! </h1>
+<br><br><br>
+<textarea cols="80" rows="4" name="advice" id="advice"></textarea><br>
+<input type="button" name="advice" id="advice" onclick="change();" value="submit">
+</body>
+</html>

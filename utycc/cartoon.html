@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> UTYCC Competition </title>
+<meta charset = "utf-8">
+<style>
+body { background-color: #FFFFCC;}
+span {color: #CC0066;
+      font-family: "Lucida Handwriting";}
+h1 { text-align: center;
+	 font-family: Lucida Calligraphy;
+	 color: #000099;}
+label { float: left;
+		display: block;
+		text-align: right;
+		width: 120px;
+		padding-right: 10px;}
+input,textarea { display: block;
+				 margin-bottom: 20px;}
+#mySubmit { margin-left: 130px;}
+img { float: right;}
+</style>
+</head>
+<body>
+<h1> Welcome to Environmental Cartoon Competition </h1>
+<script type="text/javascript">
+<!--
+ document.write("&#9818;<em><b>Hi, <span>"+top.frame1.thename+"</span>! contact please if you want to chanllenge</b></em>");
+  function show(){
+   var roll = document.getElementById("rollno").value;
+   if(roll !== ""){
+ alert("Now, you're a member of cartoon competition!");
+ }else {
+ alert("You does not contact form.");}
+ }
+   function display(){
+ top.frame2.location="utycc.html";
+ return false;
+ }
+ // -->
+ </script>
+<img src="utycc8.jpg" alt="utycc" title="utycc">
+<h2> Contact Us </h2>
+<form method = "get">
+<label for="Fname">First Name: </label>
+<input type="text" name="Fname" id="Fname"><br>
+<label for="LName">Last Name: </label>
+<input type="text" name="Lname" id="Lname"><br>
+<label for="myEmail">E-mail: </label>
+<input type="text" name="myEmail" id="myEmail"><br>
+<label for="rollno">Roll No: </label>
+<input type="text" name="rollno" id="rollno"><br>
+<label for="myPhone">Phone: </label>
+<input type="text" name="myPhone" id="myPhone"><br>
+<label for="year">Year: </label>
+    <select size="1" name="year" id="year">
+		 <option> Select Year </option>
+		 <option value="first year">First Year</option>
+		 <option value="second year">Second Year </option>
+		 <option value="third year">Third Year </option>
+		 <option value="fourth year">Fourth Year </option>
+		 <option value="Fifth year">Fifth Year </option>
+		 <option value="Sixth year">Sixth Year </option>
+	</select><br><br>
+<label for="major">Major: </label>
+	<select size="1" name="major" id="major">
+		 <option> Select Major </option>
+		 <option value="ICT">ICT</option>
+		 <option value="ECE">ECE</option>
+		 <option value="PRE">PRE</option>
+		 <option value="AME">AME</option>
+	</select><br><br>
+<label for="comments">Reasons: </label>
+<textarea type="text" name="comments" id="comments" rows="2" cols="20" placeholder="Why do choose cartoon competition?"></textarea><br>
+<input id="mySubmit" type="reset" value="Apply Now" onclick="return show();">
+<input id="mySubmit" type="button" value="Log out" onclick="display();">
+</form>
+ </body>
+ </html>

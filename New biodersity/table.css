@@ -1,0 +1,23 @@
+ table{width:700px;
+margin:auto;
+float:left;}
+h2{font-size:2.2em;}
+h3{font-size:1.6em;}
+h2,h3{color:#003300;
+font-family:Time News Roman;}
+.bio{color:#003300;}
+.test{font-size:1.1em; width:1200px; text-indent:3em;}
+th{background-color:#003300;
+color:#FFFFFF;}
+tbody td{border-bottom:1px solid #003300;
+padding-left:25px;
+color:006666;}
+tbody {
+font-family:Arial;
+font-size:0.9em;}
+.note{clear:left;
+width:700px;
+font-size:0.9em;}
+body{background-color:#ffffff;}
+#content{position:absolute;
+left:75px}

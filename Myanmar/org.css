@@ -1,0 +1,13 @@
+h1 { color : #006633;
+       text-shadow : 3px 3px 3px #006633;
+       text-align : center; }
+h3 { background-color : #CCFFCC;
+       color : #000000;
+       text-shadow : 1px 1px 1px #000000; }
+.left { float : left;
+           margin : 1px 1px 5px 5px;
+           border : 1px solid #000000;
+           overflow: auto;
+           padding: 3px;
+           clear : both;}
+p { text-indent : 5em; }

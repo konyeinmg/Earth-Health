@@ -1,0 +1,13 @@
+a{text-decoration:none;
+	color:green;}
+h1{text-align:center;}
+p{text-indent:3em;}
+.aclass{
+		display:block;
+		background-color:blue;
+		border-bottom:2px solid #FFFFFF;
+		padding:5px;
+		font-weight:bold;
+		border-radius:1px;}
+		table{align:center;}
+		

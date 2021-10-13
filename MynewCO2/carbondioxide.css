@@ -1,0 +1,16 @@
+.button:hover {
+    background:  linear-gradient(#006600,#66ff66);
+    color:#FFFFFF;
+	border:2px solid #4CAF50;
+	border-radius:20px;
+	font-size: 15px;
+}
+#use{text-decoration:none;
+  display:inline;
+  background-color:#F3F1BF;
+  border-radius:10px;
+  box-shadow:9px 9px 9px #828282;
+  border-bottom:3px solid green;
+  padding:10px;
+  font-size: 10px;
+  font-weight:bold;}

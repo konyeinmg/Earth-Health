@@ -1,0 +1,38 @@
+h1 { 
+       font-family:Comic Sans MS;
+       color : #3333ff;
+       font-size : 2.5em;
+       text-align : center;
+       text-shadow : 2px 2px 2px #0033CC; }
+h2 { color : #0033FF;
+        background-color: #CCCC99; 
+        text-align : center;
+        text-shadow : 1px 1px 1px #0033FF;
+        font-family : Lucida Calligraphy; }
+.right { float : right;
+              margin : 3px 3px 5px 5px;
+              border : 1px solid #000000;
+              overflow: auto;
+               padding: 3px;}
+.left { float : left;
+              margin : 3px 3px 5px 5px;
+              border : 1px solid #000000;
+              overflow: auto;
+              padding: 3px;}
+p {text-indent: 5em; }
+dt { font-weight: bold;
+       color : #FF00FF; }
+#wrapper {width : 100%;
+           margin-left: auto;
+           margin-right: auto; 
+           background-image : url(5.jpg);  
+           background-repeat : no-repeat; }
+h4 { color : #009900;
+        text-shadow : 1px 1px 1px #00FF00;
+        font-weight : bold;
+        font-size : 20px; }
+dt { color : #009900;
+        text-shadow : 1px 1px 1px #00FF00;
+        font-weight : bold; 
+        font-size : 20px;}
+body {font-weight : bold; }

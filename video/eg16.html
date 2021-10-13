@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset= "utf-8">
+<style>
+span{font-family:Lucida Handwriting;
+   font-weight:bold;
+   text-shadow:3px 3px 3px #666;
+   text-align:center;
+   font-size:17px;
+   color:green;}
+</style>
+</head>
+<body>
+<video width="900" height="300" controls>
+<source src="lig.mp4" type="video/mp4">
+</video><br> 
+<script type="text/javascript">
+function light16(sw){
+  var pic;
+  if(sw==0){
+   pic="unlike.png";}
+  else{
+   pic="like.png";}
+   document.getElementById('myImage16').src=pic;
+   }
+ </script>
+ <img id="myImage16" src="unlike.png" width="25" height="25">
+ <button type="button" onclick="light16(1);">Like</button>
+ <button type="button" onclick="light16(0);">Unlike</button>&nbsp; <span id="show">Thanks For Watching!</span>
+</body>
+</html>

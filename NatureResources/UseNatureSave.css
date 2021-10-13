@@ -1,0 +1,30 @@
+#wrapper { width: 100%;
+		   margin-left: auto;
+		   margin-right: auto;
+		   }
+.float { float: right;
+		 border-radius: 15px;
+		 width: 320px;
+		 height: 240px;}
+.right { float: left;
+		 border-radius: 15px;
+		 width: 320px;
+		 height: 240px;}
+.show { overflow: auto;
+        width: 100%;}
+.head{ background-color: #33CC00;
+		font-family: Lucida Calligraphy;
+		text-align: center;}
+#header { text-align: center;
+		 text-shadow: 5px 5px 5px #006600;
+          color: #33CC00;
+		  font-size: 2.5em;
+		font-family:Comic Sans MS;
+		  height: 200%;
+		  font-size: 50px;}
+.display { margin-left: 150px;
+		   margin-right: 150px;
+		  border-radius: 15px;
+		 width: 320px;
+		 height: 240px;}
+p {text-indent: 3em;}

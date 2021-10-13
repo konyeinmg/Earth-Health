@@ -1,0 +1,58 @@
+.right { float : right;
+              margin : 1px 1px 5px 5px;
+              border : 1px solid #000000;
+              overflow: auto;
+               padding: 3px;
+               clear : both;}
+.left { float : left;
+              margin : 1px 1px 5px 5px;
+              border : 1px solid #000000;
+              overflow: auto;
+              padding: 3px;
+              clear : both;}
+p { text-indent : 5em;
+      font-weight : bold; }
+body { font-weight : bold;
+           overflow-y: hidden;
+           overflow-x: hidden; }
+h2 { background-color : #CCFFFF;
+        color : #0000FF;
+        text-align : center;
+        text-shadow : 3px 3px 3px #0000FF; }
+h3 { background-color : #CCFFFF;
+        color : #660033;
+        text-shadow : 3px 3px 3px #660033; }
+#wrapper { width : 100%;
+                   margin-left : auto;
+                   margin-right : auto;
+                   background-repeat : no-repeat; }
+#rightcolumn { float : right;
+           width : 250px;
+           height : 555px;
+           font-weight : bold;
+           overflow-x : hidden;
+           letter-spacing : 0.1em;
+           overflow-y : scroll;
+           display : block; }
+#leftcolumn { float : left;
+          width : 1050px;
+           height : 555px;
+           font-weight : bold;
+           letter-spacing : 0.1em;
+           overflow-y : scroll; }
+a {
+	text-decoration :none;}
+li { font-weight : bold;
+               font-size : 1.5em;
+               font-family : Times New Roman;
+               border : 1px solid #000033;
+               border-radius : 15px;
+               display : block;
+               color: #3300FF;
+               background-color: #CCFFCC;
+               padding : 20px;}
+h1 {   
+        color: #3300FF;
+        font-family:Comic Sans MS;
+        text-align : center;
+        font-size : 2.5em; }

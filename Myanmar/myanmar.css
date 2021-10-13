@@ -1,0 +1,23 @@
+body { font-weight : bold;
+           background-color: #FFFFCC; }
+p { text-indent : 5em; }
+h2 { background-color : #FFFFCC;
+       color : #0033CC;
+       text-shadow : 2px 2px 2px #0033CC; }
+h3 { background-color : #FFFFCC;
+       color : #009966;
+       text-shadow : 1px 1px 1px #009966;}
+.right { float : right;
+              margin : 3px 3px 5px 5px;
+              border : 1px solid #000000;
+              overflow: auto;
+               padding: 3px;
+               clear : both;}
+.left { float : left;
+              margin : 3px 3px 5px 5px;
+              border : 1px solid #000000;
+              overflow: auto;
+              padding: 3px;
+              clear : both;}
+h1 { color : #1a1a1a;
+       text-shadow : 2px 2px 2px #000000;}

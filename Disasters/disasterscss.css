@@ -1,0 +1,42 @@
+#wrapper  { width: auto;
+          height: auto;
+          margin-left: auto;
+		  margin-right: auto;
+		  }
+#header   { color:#000000;
+			font-size: 1.5em;
+			font-family:Comic Sans MS;
+			text-align:center;
+			}
+#link     { text-align: center;
+			font-size:25px;
+			text-align:center;
+			
+			}
+#linkstyle{    border:4px solid #000000;
+              border-radius:10px;
+			  color:#000000;
+              text-decoration:none;
+			   box-shadow: 5px 5px 4px #000000;
+			   padding:0.1cm;
+			   }
+#content { overflow: scroll;
+           width:100%;
+		   height:340px;
+		  }
+		  
+#disaster { border: 2px solid red;
+		     border-left-width:30px;
+			 border-right-width:0px;
+			 }
+			 
+#disaster1 { border: 2px solid black;
+		     border-left-width:30px;
+			 border-right-width:0px;
+			 color:red;}
+			 
+p            {text-align:center;
+	       text-align:justify;
+		   }
+body  {overflow-y:hidden;
+       font-size:20px;}

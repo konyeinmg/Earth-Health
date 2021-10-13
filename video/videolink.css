@@ -1,0 +1,21 @@
+body{background-size:cover;
+     background-image:url(background.jpg);
+	 overflow-y:hidden;}
+h1{font-size:30px;
+   text-shadow:3px 3px 3px #666;
+   }
+
+video{border-radius:20px;} 
+#wrapper{width:auto;
+		 height:auto;
+		 overflow:auto;}
+#leftcolumn{width:350px;
+			height:360px;
+			overflow:scroll;
+			overflow-x:hidden;
+			float:left;}
+#rightcolumn{margin-left:150px;}
+#header{text-align:center;}
+iframe{border: none;}
+		
+  

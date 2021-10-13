@@ -1,0 +1,35 @@
+.float{float:right;
+	   margin-right:10px;
+		}
+.float1{float:left;}
+div{overflow:auto;
+	background-color:#F3F1BF;}
+ul{color:#000000;}
+
+a{text-decoration:none;
+  display:inline;
+  background-color:#F3F1BF;
+  border-radius:10px;
+  box-shadow:9px 9px 9px #828282;
+  border-bottom:3px solid green;
+  padding:10px;
+  font-size: 10px;
+  font-weight:bold;}
+p{text-indent:3em;
+  background-color:#F3F1BF;}
+h1{text-align:center;
+   color: green;
+   font-size: 2.5em;
+		font-family:Comic Sans MS;
+   text-shadow:5px 5px 5px #828282;}
+
+h2{color:green;
+   text-shadow:5px 5px 5px #828282;}
+.button:hover {background:  linear-gradient(#006600,#66ff66);
+              color:#FFFFFF; 
+			  border:2px solid #4CAF50;
+	          border-radius:20px;
+	          font-size: 15px;}
+
+
+
