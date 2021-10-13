@@ -14,13 +14,13 @@ HTML-5, CSS, Javascript
 
 Team Members
 -------------
-Nyein Chan Aung
-Htet Wai Aung
-Thet Htar Aung
-Ei Phy Moe
+Nyein Chan Aung,
+Htet Wai Aung,
+Thet Htar Aung,
+Ei Phy Moe,
 Thet Ngone Htoo,
-Yin Zarni Po Po Oo
-Phue Wai Wai Kyaw
+Yin Zarni Po Po Oo,
+Phue Wai Wai Kyaw,
 Yoon Mi Mi Kaung
 
 Supervisor- Daw Myint Myint Khine
